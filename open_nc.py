@@ -2,9 +2,6 @@ import time
 from netCDF4 import Dataset
 import numpy as np
 
-tn_path = r'C:\Users\Rens\Documents\GIMA\Thesis\eobs_data\tn_ensemble_master_1952.nc'
-tx_path = r'C:\Users\Rens\Documents\GIMA\Thesis\eobs_data\tn_ensemble_master_1952.nc'
-
 def tempunits(inT):
     return (9./5)*inT+32
 
