@@ -5,3 +5,11 @@ This repository shows the Python scripts that are utilized to get the phenology 
 1. Load the minimum and maximum temperature data in a Python environment. I used the open_nc.py script, though this is suited only for the E-OBS full ensemble dataset configuration. The output of this step should be the loaded temperature data that fits the internal memory of the device that is used. In this study, 10 ensemble members were loaded each time the function is called (see calc_si.py). The configuration of the loaded data should be two 4D temperature arrays for minimum temperature and maximum temperature with the following dimensions: [ensemble_member, latitude, longitude, days]. Furthermore, an 1D array of all the latitudes should be created. Note that this study employed the full 100-member ensemble of temperature data. Commonly, the first axis of the 4D array will be "years". 
 2. Once the temperature arrays and latitude array are loaded in the Python environment, the functions optimized_model.py and run_batches.py must be run. 
 3. Lastly, the calc_si.py function can be run to get the spring onset and last freeze arrays. The range must be adjusted to represent the number of years or ensemble members in the temperature dataset. Furthermore, the fourth command in the run_batches statement may need to be adjusted to make sure that the number of latitudes in the dataset is divisible by the number that is stated. Preferably, the number should not deviate too much from 5. 
+
+# Authors
+
+MSc student Geographical Information Management and Applications (Utrecht University):
+[Rens Vermeltfoort](rensvermeltfoort@gmail.com)
+
+Professor/Supervisor Faculty Geo-Information Science and Earth Observation (University of Twente):
+[Raul Zuritta-Milla](r.zurita-milla@utwente.nl)
