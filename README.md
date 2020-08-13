@@ -9,7 +9,10 @@ This repository shows the Python scripts that are utilized to get the phenology 
 # Authors
 
 MSc student Geographical Information Management and Applications (Utrecht University):
-[Rens Vermeltfoort](rensvermeltfoort@gmail.com)
+
+Rens Vermeltfoort: rensvermeltfoort@gmail.com
+
 
 Professor/Supervisor Faculty Geo-Information Science and Earth Observation (University of Twente):
-[Raul Zuritta-Milla](r.zurita-milla@utwente.nl)
+
+Raul Zurita-Milla: r.zurita-milla@utwente.nl
